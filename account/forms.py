@@ -28,7 +28,7 @@ def clean_password2(self):
 
 class UserEditForm(forms.ModelForm):
     class Meta:
-        model = Profile
+        model = User
         fields = ['first_name', 'last_name', 'email']
 
 
