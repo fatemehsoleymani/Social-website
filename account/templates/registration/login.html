@@ -11,6 +11,9 @@
  <p>Please, use the following form to log-in:
   If you don't have an account <a href="{% url 'register' %}">register here</a>.
  </p>
+<p>
+ You can use your email instead of your username
+</p>
  {% endif %}
  <div class="login-form">
  <form action="{% url 'login' %}" method="post">
