@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'social_django',
 
 ]
 
@@ -122,13 +123,12 @@ LOGIN_REDIRECT_URL = 'dashboard'
 LOGIN_URL = 'login'
 LOGOUT_URL = 'logout'
 
-
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 AUTHENTICATION_BACKENDS = [
-     'django.contrib.auth.backends.ModelBackend',
-     'account.authentication.EmailAuthBackend',
+    'django.contrib.auth.backends.ModelBackend',
+    'account.authentication.EmailAuthBackend',
 ]
