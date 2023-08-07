@@ -10,4 +10,4 @@ class Profile(models.Model):
                               blank=True)
 
     def __str__(self):
-        return f"Profile of {self.user.username}"
+        return f'Profile of {self.user.username}'

@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.contrib.auth import authenticate, login
 from .forms import LoginForm, UserRegistrationForm, ProfileEditForm, UserEditForm
 from django.contrib.auth.decorators import login_required
@@ -79,3 +79,5 @@ def edit(request):
                   'account/edit.html',
                   {'user_form': user_form,
                    'profile_form': profile_form})
+
+
