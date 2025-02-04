@@ -1,6 +1,6 @@
 # Social Website Project
 
-This project is a Django-based social website that includes user authentication, social authentication, content sharing, user actions, and more. It allows users to register, log in, share images, follow other users, and track activities.
+This project is a Django-based social website that includes user authentication, content sharing, user actions, and more. It allows users to register, log in, share images, follow other users, and track activities.
 
 ## Technologies Used
 
